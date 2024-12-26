@@ -199,6 +199,8 @@ void PointCloudMapping::viewer()
         // double duration = finish.tv_sec - start.tv_sec + (finish.tv_usec - start.tv_usec)/1000000.0;//转换浮点型
         // std::cout<<"showCloud: "<<duration<<std::endl;
     }
+    //by almond 20241226
+    save();
 }
 
 // 保存地图的函数，需要的自行调用~
